@@ -1,0 +1,30 @@
+<storageSettings>
+  <matrixType>Classic</matrixType>
+  <testOption>Totaly randon</testOption>
+  <numberComparaties>2</numberComparaties>
+  <isNewProject>true</isNewProject>
+  <dataSetPath>C:\Users\Oliverio\workspaces\mestrado\Framework\data\matrix.txt</dataSetPath>
+  <kValue>5</kValue>
+  <percentTrain>80.0</percentTrain>
+  <percentTest>20.0</percentTest>
+  <comparisions class="list">
+    <control.Comparision>
+      <algorithtm>User-Based Collaborative Filtering</algorithtm>
+      <similarity>User Based Cossine</similarity>
+      <clsAlgorithtm>memoryBasedMethods.predictions.userBased.UserBasedClassicStrategy</clsAlgorithtm>
+      <clsSimilarity>memoryBasedMethods.similarities.userBased.cossine.UserBasedCossineStrategy</clsSimilarity>
+    </control.Comparision>
+    <control.Comparision>
+      <algorithtm>User-Based Collaborative Filtering</algorithtm>
+      <similarity>User Based Pearson</similarity>
+      <clsAlgorithtm>memoryBasedMethods.predictions.userBased.UserBasedClassicStrategy</clsAlgorithtm>
+      <clsSimilarity>memoryBasedMethods.similarities.userBased.pearson.UserBasedPearsonStrategy</clsSimilarity>
+    </control.Comparision>
+  </comparisions>
+  <experimentStrategy>K Fold</experimentStrategy>
+  <evaluationMetrics class="list">
+    <control.EvaluationMetric>
+      <metric>MAE</metric>
+    </control.EvaluationMetric>
+  </evaluationMetrics>
+</storageSettings>

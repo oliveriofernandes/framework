@@ -1,0 +1,30 @@
+<storageSettings>
+  <matrixType>Classic</matrixType>
+  <testOption>Totaly randon</testOption>
+  <numberComparaties>2</numberComparaties>
+  <isNewProject>true</isNewProject>
+  <dataSetPath>D:\Dropbox\PUC\PSS\Trabalho_final\workspace\Framework\teste3.txt</dataSetPath>
+  <kValue>8</kValue>
+  <percentTrain>8.0</percentTrain>
+  <percentTest>92.0</percentTest>
+  <comparisions class="list">
+    <control.Comparision>
+      <algorithtm>Item-Based Collaborative Filtering</algorithtm>
+      <similarity>Pearson</similarity>
+      <clsAlgorithtm>predictions.ItemBasedClassicStrategy</clsAlgorithtm>
+      <clsSimilarity>similarities.PearsonStrategy</clsSimilarity>
+    </control.Comparision>
+    <control.Comparision>
+      <algorithtm>Item-Based Collaborative Filtering</algorithtm>
+      <similarity>Cossine</similarity>
+      <clsAlgorithtm>predictions.ItemBasedClassicStrategy</clsAlgorithtm>
+      <clsSimilarity>similarities.CossineStrategy</clsSimilarity>
+    </control.Comparision>
+  </comparisions>
+  <experimentStrategy>K Fold</experimentStrategy>
+  <evaluationMetrics class="list">
+    <control.EvaluationMetric>
+      <metric>MAE</metric>
+    </control.EvaluationMetric>
+  </evaluationMetrics>
+</storageSettings>
