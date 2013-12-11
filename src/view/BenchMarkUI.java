@@ -83,8 +83,8 @@ public class BenchMarkUI {
 		window = new JFrame("Benchmark");
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		try {
-			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-			// UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+			//UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+			 UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (InstantiationException e) {
@@ -101,11 +101,9 @@ public class BenchMarkUI {
 
 		int width = Toolkit.getDefaultToolkit().getScreenSize().width;
 		int height = Toolkit.getDefaultToolkit().getScreenSize().height;
-		Image img = Toolkit.getDefaultToolkit().getImage("logo-pesc.png");
 		window.pack();
 		window.setSize(width - (width / 5),height - ( height / 5));
 		window.setLocationRelativeTo(null);
-		window.setIconImage(img);
 		window.setResizable(true);
 		window.setVisible(true);
 	}

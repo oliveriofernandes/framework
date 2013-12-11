@@ -8,6 +8,7 @@ public class AgentTest extends Agent {
 
 	protected void setup(){
 		super.setup();
+		System.out.println("The " + this.getName() + " agent( AID = " + this.getAID() +") has been started!");
 		addBehaviour(new BehaviorTest(this, 10000));
 	}
 	
