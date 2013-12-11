@@ -16,5 +16,4 @@ public class AgentTest extends Agent {
 		// Imprimindo uma mensagem de saida
 		System.out.println("O agente  " + getAID().getName() + " está sendo finalizado.");
 		}
-	
 }
