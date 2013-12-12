@@ -6,15 +6,16 @@ import java.util.List;
  * @author Oliverio
  */
 
-public class SimilarityContext
-{
-  private SimilarityStrategy strategy;
+public class SimilarityContext {
 
-  public SimilarityContext(SimilarityStrategy strategy) {
-    this.strategy = strategy;
-  }
+	private SimilarityStrategy strategy;
 
-  public double executeStrategy(Integer idUsrA, List<Double> listA, Integer idUsrB, List<Double> listB){
-    return this.strategy.execute(idUsrA, listA, idUsrB, listB);
-  }
+	public SimilarityContext(SimilarityStrategy strategy) {
+		this.strategy = strategy;
+	}
+
+	public double executeStrategy(Integer idUsrA, List<Double> listA,Integer idUsrB, 
+			List<Double> listB) {
+		return this.strategy.execute(idUsrA, listA, idUsrB, listB);
+	}
 }

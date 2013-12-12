@@ -92,10 +92,6 @@ public class AbaVisualization extends JPanel {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 
-				StorageSettings storage = StorageSettings.getInstance();
-
-				Class clazz = ListClasses.getClassByPresentedAnnotation(storage.experimentStrategy, "experimentsStrategies");
-
 				ContainerValues container = ContainerValues.getInstance();
 				try {
 					container.run(StorageSettings.getInstance());

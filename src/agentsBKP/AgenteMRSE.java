@@ -1,18 +1,15 @@
-package agentes;
+package agentsBKP;
 
 import jade.core.Agent;
 /*
- * Agente ItemBasedPearson é uma feature alternativa,
- * definida pelo padrão Strategy e é executada de 5 em 5 segundos
- * afim de que seja executada ou não sua medida no processo da
- * experimentação
+ * Agente ItemBasedPearson ï¿½ uma feature alternativa,
+ * definida pelo padrï¿½o Strategy e ï¿½ executada de 5 em 5 segundos
+ * afim de que seja executada ou nï¿½o sua medida no processo da
+ * experimentaï¿½ï¿½o
  */
 // O agente sera executado de 5 em 5 segundos
-public class AgenteMAE extends Agent {
+public class AgenteMRSE extends Agent {
 	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 6776055151529992525L;
 
 	protected void setup(){

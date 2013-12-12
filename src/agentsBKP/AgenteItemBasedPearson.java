@@ -1,4 +1,4 @@
-package agentes;
+package agentsBKP;
 
 import jade.core.Agent;
 /*
@@ -8,8 +8,11 @@ import jade.core.Agent;
  * experimenta��o
  */
 // O agente sera executado de 5 em 5 segundos
-public class AgenteMRSE extends Agent {
+public class AgenteItemBasedPearson extends Agent {
 	
+	/**
+	 * 
+	 */
 	private static final long serialVersionUID = 6776055151529992525L;
 
 	protected void setup(){

@@ -1,4 +1,4 @@
-package agentes;
+package agentsBKP;
 
 import jade.core.Agent;
 import jade.core.behaviours.TickerBehaviour;
@@ -15,7 +15,5 @@ public class BehaviorTest extends TickerBehaviour {
 	protected void onTick() {
 		//Executar estrategia
 		System.out.println("behavior");
-		
 	}
-
 }

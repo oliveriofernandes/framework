@@ -52,7 +52,7 @@ public class SelectDataSet extends JPanel {
     private JRadioButton startNewProjectRadio, loadProjectRadio; 
     private ButtonGroup projectButtonGroup;
     private JTextField trainPercentTextField, testPercentTextField; 
-    private JComboBox chooseMatrixTypeComboBox, testOptionComboBox ;
+    private JComboBox<?> chooseMatrixTypeComboBox, testOptionComboBox ;
     private StorageSettings storageSettings;
     private ChooseAlgTextArea settingsTextArea;
     public SelectDataSet(){

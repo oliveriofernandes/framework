@@ -28,10 +28,6 @@ public class ListClasses {
 		
 		Package [] p = Package.getPackages();
 		
-		for (int i = 0; i < p.length; i++) {
-			System.out.println(p.toString());
-		}
-		
 		String path = packageName.replace('.', '/');
 		Enumeration<URL> resources = classLoader.getResources(path);
 		List<File> dirs = new ArrayList<File>();

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featuremodel:FeatureModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:featuremodel="http://www.eclipse.org/featuremodel" id="_S9cRIGMxEeOxyKamYlhYlg">
+  <root id="_dMQOgGMxEeOxyKamYlhYlg" name="AlgExperiments">
+    <children id="_q5ZT8GMxEeOxyKamYlhYlg" lower="1">
+      <features id="_q5T0YGMxEeOxyKamYlhYlg" name="Select dataset"/>
+    </children>
+    <children id="__FojwGMxEeOxyKamYlhYlg" lower="1">
+      <features id="__Fk5YGMxEeOxyKamYlhYlg" name="Split dataset"/>
+    </children>
+    <children id="_BhxPAGMyEeOxyKamYlhYlg" lower="0">
+      <features id="_BhtkoGMyEeOxyKamYlhYlg" name="Choose algorithm"/>
+    </children>
+    <children id="_LTXE4GMyEeOxyKamYlhYlg" lower="1" upper="1">
+      <features id="_LTTagGMyEeOxyKamYlhYlg" name="Selec similarity measured"/>
+      <features id="_KKzPcGM0EeOxyKamYlhYlg" name="select CF algorithm"/>
+    </children>
+  </root>
+</featuremodel:FeatureModel>

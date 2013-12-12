@@ -90,6 +90,7 @@ public class ContainerValues {
 	InstantiationException, IllegalAccessException, SecurityException,
 	IllegalArgumentException, NoSuchMethodException,
 	InvocationTargetException {
+		
 		cleanVariables();
 		Collection<Comparision> comparisions = settings.getComparisions();
 		for (Comparision comparision : comparisions) {
@@ -113,6 +114,7 @@ public class ContainerValues {
 			NoSuchMethodException, IllegalArgumentException,
 			InstantiationException, IllegalAccessException,
 			InvocationTargetException {
+		
 		for (EvaluationMetric evaluationMetric : settings.getEvaluationMetrics()) {
 			Class<?> cls = ListClasses.getClassByPresentedAnnotation(
 					evaluationMetric.getMetric(), "evaluationMetrics");

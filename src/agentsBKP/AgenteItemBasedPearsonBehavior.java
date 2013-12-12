@@ -1,4 +1,4 @@
-package agentes;
+package agentsBKP;
 
 
 import jade.core.Agent;
@@ -19,8 +19,8 @@ public class AgenteItemBasedPearsonBehavior extends TickerBehaviour{
 
 	@Override
 	protected void onTick() {
-		//Aplica?‹o do padr‹o de projeto Strategy
-		//CriticaCardapio Ž uma feature alternativa. 
+		//Aplica?ï¿½o do padrï¿½o de projeto Strategy
+		//CriticaCardapio ï¿½ uma feature alternativa. 
 		//Poderia ser CriticaCardapioDietaEstrategia
 //		 Contexto contexto = new Contexto(new CriticaCardapioSimplesEstrategia());
 //	     contexto.executeEstrategia();	

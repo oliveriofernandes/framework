@@ -74,7 +74,7 @@ public class LoaderClassicMatrix extends AbstractLoad {
 			Scanner scanner = new Scanner(this.getDataset());
 			while (scanner.hasNextLine())
 				this.loadMatrix(scanner.nextLine().split("[.^,]"));
-
+			scanner.close();
 			return matrix;
 
 		} catch (FileNotFoundException e) {
@@ -87,5 +87,6 @@ public class LoaderClassicMatrix extends AbstractLoad {
 			JOptionPane.showMessageDialog(null, "NumberFormatException");
 			throw new NumberFormatException("NumberFormatException");
 		}
+		
 	}
 }

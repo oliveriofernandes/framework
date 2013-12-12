@@ -24,9 +24,9 @@ public class PearsonStrategy
     double meanA = ((Double)ContainerValues.getInstance().getMapMeanUsers().get(idUsrA)).doubleValue();
     double meanB = ((Double)ContainerValues.getInstance().getMapMeanUsers().get(idUsrB)).doubleValue();
 
-    double covAB = 0.0D;
-    double varA = 0.0D;
-    double varB = 0.0D;
+    double covAB = 0.0;
+    double varA = 0.0;
+    double varB = 0.0;
 
     for (int i = 0; i < listA.size(); i++) {
       double desvioA = ((Double)listA.get(i)).doubleValue() - meanA;
