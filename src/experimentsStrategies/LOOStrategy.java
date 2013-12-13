@@ -7,6 +7,6 @@ import util.Visibility;
  */
 
 @Visibility (name = "LOO")
-public class LOO implements Visible{
+public class LOOStrategy implements Visible{
 
 }
