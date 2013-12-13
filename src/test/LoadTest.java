@@ -5,11 +5,11 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import control.MatrixFactory;
 
-import util.LoaderClassicMatrix;
 import view.graphics.GraphicGenerator;
 import core.ClassicMatrix;
+import core.LoaderClassicMatrix;
+import core.MatrixFactory;
 import enums.TypeMatrix;
 
 /**

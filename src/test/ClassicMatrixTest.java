@@ -8,9 +8,9 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import util.LoaderClassicMatrix;
-import control.MatrixFactory;
 import core.ClassicMatrix;
+import core.LoaderClassicMatrix;
+import core.MatrixFactory;
 import core.Rating;
 import enums.TypeMatrix;
 

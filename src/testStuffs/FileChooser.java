@@ -4,9 +4,9 @@ import java.io.FileNotFoundException;
 
 import javax.swing.JFileChooser;
 
-import control.MatrixFactory;
 
 import core.AbstractMatrix;
+import core.MatrixFactory;
 import enums.TypeMatrix;
 
 /**

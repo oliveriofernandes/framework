@@ -17,8 +17,8 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 
-import control.MatrixFactory;
 import core.ClassicMatrix;
+import core.MatrixFactory;
 import enums.TypeMatrix;
 
 public class TestGrafico {

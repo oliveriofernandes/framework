@@ -7,6 +7,7 @@ import javax.swing.JPanel;
 
 import view.graphics.GraphicGenerator;
 import core.AbstractMatrix;
+import core.MatrixFactory;
 import core.SplittedMatrix;
 import enums.TypeMatrix;
 /**

@@ -21,8 +21,8 @@ import org.jfree.chart.renderer.category.CategoryItemRenderer;
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 
-import control.MatrixFactory;
 import core.ClassicMatrix;
+import core.MatrixFactory;
 import enums.TypeMatrix;
 
 public class DualAxisDemo5 {
