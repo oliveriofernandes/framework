@@ -1,6 +1,7 @@
-package similarities;
+package similaritiesPatterns;
 
 import java.util.List;
+
 
 /**
  * @author Oliverio

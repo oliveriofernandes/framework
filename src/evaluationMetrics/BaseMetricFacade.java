@@ -7,7 +7,7 @@ import control.Comparision;
  * @author Oliverio
  */
 
-public abstract class BaseMetric {
+public abstract class BaseMetricFacade {
 
 	public abstract  Map<Comparision, Double> executeMetric();
 }

@@ -18,10 +18,10 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
-import similarities.SimilarityStrategy;
+import similaritiesPatterns.SimilarityStrategy;
 import util.Visibility;
 import view.graphics.GraphicGenerator;
-import evaluationMetrics.BaseMetric;
+import evaluationMetrics.BaseMetricFacade;
 
 /**
  * @author Oliverio
@@ -119,7 +119,7 @@ public class ContainerValues {
 			Class<?> cls = ListClasses.getClassByPresentedAnnotation(
 					evaluationMetric.getMetric(), "evaluationMetrics");
 			Constructor<?> c = cls.getConstructor(List.class);
-			BaseMetric metric = (BaseMetric) c.newInstance(results);
+			BaseMetricFacade metric = (BaseMetricFacade) c.newInstance(results);
 			Map<Comparision, Double> m = new HashMap<Comparision, Double>();
 			m = metric.executeMetric();
 			GraphicGenerator g = new GraphicGenerator();

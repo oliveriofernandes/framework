@@ -6,6 +6,9 @@ import core.User;
 import interfaces.Visible;
 import java.util.Collection;
 import java.util.List;
+
+import similaritiesPatterns.CossineStrategy;
+import similaritiesPatterns.SimilarityStrategy;
 import util.Description;
 import util.Visibility;
 

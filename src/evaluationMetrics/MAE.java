@@ -11,7 +11,7 @@ import control.Comparision;
 import control.Result;
 
 @Visibility(name = "MAE")
-public class MAE extends BaseMetric implements Visible {
+public class MAE extends BaseMetricFacade implements Visible {
 
 	List<Result> results;
 	Map<Comparision, Double> maes;

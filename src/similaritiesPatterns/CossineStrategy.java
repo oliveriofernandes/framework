@@ -1,4 +1,4 @@
-package similarities;
+package similaritiesPatterns;
 
 import core.User;
 import interfaces.Visible;

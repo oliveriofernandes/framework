@@ -7,6 +7,7 @@ import java.io.PrintStream;
 import java.util.List;
 import java.util.Map;
 
+import similaritiesPatterns.SimilarityStrategy;
 import util.Visibility;
 /**
  * @author Oliverio
