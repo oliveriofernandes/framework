@@ -7,5 +7,5 @@ import java.util.Map;
  */
 public abstract interface AnyBasedPredictionStrategy
 {
-  public abstract double execute(Integer paramInteger1, Integer paramInteger2, double[][] paramArrayOfDouble, Map<Integer, Map<Integer, Double>> paramMap);
+  public abstract double execute(Integer paramIdX, Integer paramIdY, double[][] paramArrayOfSimilarities, Map<Integer, Map<Integer, Double>> paramMap);
 }

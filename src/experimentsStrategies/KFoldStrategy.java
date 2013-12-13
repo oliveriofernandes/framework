@@ -11,16 +11,16 @@ import experimentsStrategies.corePattern.Strategy;
  */
 
 @Visibility (name = "K Fold")
-public class KFoldCFStrategy<Rating> implements Strategy<Rating>{
+public class KFoldStrategy<Rating> implements Strategy<Rating>{
 	
 	
-	public KFoldCFStrategy(){
+	public KFoldStrategy(){
 	}
 
 	@Override
 	public List<Rating> [][]  execute (List<Rating> dataset, int kFold){
 		
-		List<Rating> selected= new ArrayList<Rating>();
+		List<Rating> selected = new ArrayList<Rating>();
 		List<Rating> test = new ArrayList<Rating>();
 		List<Rating> totalObj = new ArrayList<Rating>();
 		totalObj.addAll(dataset);

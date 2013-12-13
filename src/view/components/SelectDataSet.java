@@ -554,7 +554,7 @@ public class SelectDataSet extends JPanel {
             openFileButton = new JButton("Open File");
             testOptionPanel = new JPanel();
             testOptionComboBox = new JComboBox();
-            testOptionLabel = new JLabel("Test option");
+            testOptionLabel = new JLabel("Split option");
             settingsOptionPanel = new JPanel();
             trainPercentTextField = new JTextField(new AllowedCharsPlainDocument("0123456789."), "", 4);
             trainPercentLabel = new JLabel();//new JLabel("Train percent:");

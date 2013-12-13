@@ -19,6 +19,7 @@ public class MatrixFactory {
 			LoaderClassicMatrix loader = new LoaderClassicMatrix(pathName, matrixType);
 			Map<Integer, Map<Integer, Double>> content = loader.getData();
 			return  ClassicMatrix.getMatrix(content);
+		//Está implementada apenas o tipo ClassicMatrix!! 
 		case CONFIDENCE:
 			LoaderClassicMatrix loader2 = new LoaderClassicMatrix(pathName, matrixType);
 			Map<Integer, Map<Integer, Double>> content2 = loader2.getData();

@@ -2,17 +2,64 @@
 <featuremodel:FeatureModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:featuremodel="http://www.eclipse.org/featuremodel" id="_S9cRIGMxEeOxyKamYlhYlg">
   <root id="_dMQOgGMxEeOxyKamYlhYlg" name="AlgExperiments">
     <children id="_q5ZT8GMxEeOxyKamYlhYlg" lower="1">
-      <features id="_q5T0YGMxEeOxyKamYlhYlg" name="Select dataset"/>
+      <features id="_q5T0YGMxEeOxyKamYlhYlg" name="Split dataset">
+        <children id="_8dLAAGNuEeOO8s80vYj7cg" lower="1" upper="1">
+          <features id="_8dFgcGNuEeOO8s80vYj7cg" name="Totaly Random Spliting"/>
+          <features id="_9TbD0GN0EeOO8s80vYj7cg" name="User Random Spliting"/>
+          <features id="_AVJIYGN1EeOO8s80vYj7cg" name="Item Random Spliting"/>
+        </children>
+        <children id="_BFE_QGNvEeOO8s80vYj7cg">
+          <features id="_BFAt0GNvEeOO8s80vYj7cg"/>
+        </children>
+      </features>
     </children>
-    <children id="__FojwGMxEeOxyKamYlhYlg" lower="1">
-      <features id="__Fk5YGMxEeOxyKamYlhYlg" name="Split dataset"/>
-    </children>
-    <children id="_BhxPAGMyEeOxyKamYlhYlg" lower="0">
-      <features id="_BhtkoGMyEeOxyKamYlhYlg" name="Choose algorithm"/>
+    <children id="_BhxPAGMyEeOxyKamYlhYlg" lower="1">
+      <features id="_BhtkoGMyEeOxyKamYlhYlg" name="Choose algorithm">
+        <children id="_UFX5AGNyEeOO8s80vYj7cg" lower="0" upper="1">
+          <features id="_Pj1ngGNyEeOO8s80vYj7cg" name="User-Based CF Predicting"/>
+          <features id="_egXmUGN0EeOO8s80vYj7cg" name="Item-Based CF Predicting"/>
+        </children>
+      </features>
     </children>
     <children id="_LTXE4GMyEeOxyKamYlhYlg" lower="1" upper="1">
-      <features id="_LTTagGMyEeOxyKamYlhYlg" name="Selec similarity measured"/>
-      <features id="_KKzPcGM0EeOxyKamYlhYlg" name="select CF algorithm"/>
+      <features id="_LTTagGMyEeOxyKamYlhYlg" name="Selec similarity measured">
+        <children id="_BGskUGN5EeOO8s80vYj7cg" lower="0" upper="1">
+          <features id="_BGoS4GN5EeOO8s80vYj7cg" name="Cossine Measurement"/>
+          <features id="_DmeZcGN5EeOO8s80vYj7cg" name="Pearson Measurement"/>
+          <features id="_FgCjIGN5EeOO8s80vYj7cg" name="Kendall Measurement"/>
+        </children>
+      </features>
+    </children>
+    <children id="_hUqgoGN5EeOO8s80vYj7cg">
+      <features id="_hUm2QGN5EeOO8s80vYj7cg" name="Load configured experiment data file">
+        <children id="_ZeNsUGN6EeOO8s80vYj7cg" lower="1">
+          <features id="_ZeKB8GN6EeOO8s80vYj7cg" name="Save experiment configuration"/>
+        </children>
+      </features>
+    </children>
+    <children id="_tLAnEGN6EeOO8s80vYj7cg" lower="1">
+      <features id="_tK8VoGN6EeOO8s80vYj7cg" name="Select validation form">
+        <children id="_OuSekGN9EeOO8s80vYj7cg" lower="0" upper="1">
+          <features id="_OuO0MGN9EeOO8s80vYj7cg" name="K-Fold validation"/>
+          <features id="_RkUQgGN9EeOO8s80vYj7cg" name="Leave One Out validation"/>
+        </children>
+      </features>
+    </children>
+    <children id="_uH2icGN9EeOO8s80vYj7cg" lower="1">
+      <features id="_uHyRAGN9EeOO8s80vYj7cg" name="Select error measure">
+        <children id="_7n0HgGN9EeOO8s80vYj7cg" lower="0" upper="1">
+          <features id="_7nun8GN9EeOO8s80vYj7cg" name="Mean Absolute Error Measurement (MAE)"/>
+          <features id="_TuyukGN-EeOO8s80vYj7cg" name="Mean Squared Error Measurement (MSE) "/>
+          <features id="_lpnVYGN-EeOO8s80vYj7cg" name="Root Mean Squared Error Measurement (RMSE)"/>
+        </children>
+      </features>
+    </children>
+    <children id="_fNAB0GN_EeOO8s80vYj7cg" lower="1">
+      <features id="_fM7wYGN_EeOO8s80vYj7cg" name="Run Experiment">
+        <children id="_iVdAgGN_EeOO8s80vYj7cg">
+          <features id="_iVZWIGN_EeOO8s80vYj7cg" name="Show Graphic View of the experiment"/>
+        </children>
+      </features>
     </children>
   </root>
 </featuremodel:FeatureModel>
