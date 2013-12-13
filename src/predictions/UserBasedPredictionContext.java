@@ -1,6 +1,6 @@
 package predictions;
 
-import interfaces.PredictionStrategy;
+import cFAlgsImpl.PredictionStrategy;
 /**
  * @author Oliverio
  */

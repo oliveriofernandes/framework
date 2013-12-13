@@ -1,7 +1,6 @@
-package predictions;
+package cFAlgsImpl;
 
 import control.ContainerValues;
-import interfaces.PredictionStrategy;
 import interfaces.Visible;
 import java.util.Map;
 import util.Visibility;

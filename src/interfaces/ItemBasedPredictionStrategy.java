@@ -1,5 +1,7 @@
 package interfaces;
 
+import cFAlgsImpl.AnyBasedPredictionStrategy;
+
 /**
  * @author Oliverio
  */

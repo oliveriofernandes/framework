@@ -1,7 +1,7 @@
 package control;
 
-import similaritiesPatterns.SimilarityContext;
-import similaritiesPatterns.SimilarityStrategy;
+import similaritiesImpl.SimilarityContext;
+import similaritiesImpl.SimilarityStrategy;
 
 public class Comparision
 {

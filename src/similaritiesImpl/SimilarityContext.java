@@ -1,4 +1,4 @@
-package similaritiesPatterns;
+package similaritiesImpl;
 
 import java.util.List;
 

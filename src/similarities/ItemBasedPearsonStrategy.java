@@ -9,7 +9,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
-import similaritiesPatterns.SimilarityStrategy;
+import similaritiesImpl.SimilarityStrategy;
 import util.Visibility;
 
 /**

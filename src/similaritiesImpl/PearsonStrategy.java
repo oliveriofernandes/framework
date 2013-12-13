@@ -1,4 +1,4 @@
-package similaritiesPatterns;
+package similaritiesImpl;
 
 import control.ContainerValues;
 import core.User;

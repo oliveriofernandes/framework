@@ -9,7 +9,8 @@ import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 
-import predictions.ItemBasedClassicStrategy;
+import cFAlgsImpl.ItemBasedClassicStrategy;
+
 
 import util.Visibility;
 
