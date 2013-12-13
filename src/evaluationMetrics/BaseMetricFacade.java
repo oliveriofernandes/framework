@@ -10,4 +10,5 @@ import control.Comparision;
 public abstract class BaseMetricFacade {
 
 	public abstract  Map<Comparision, Double> executeMetric();
+
 }
